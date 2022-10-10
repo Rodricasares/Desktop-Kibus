@@ -1,0 +1,47 @@
+.evalu{
+    width: 1156px;
+    height: 608px;
+
+    left: 527px;
+    top: 2161.4px; 
+    margin-left: 267px;
+}
+
+.eat{
+
+width: 609.22px;
+height: 551.49px;
+left: 785px;
+top: 2227px;
+filter: drop-shadow(16px 88px 72px rgba(118, 118, 118, 0.15));
+}
+
+
+.iconCol{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+
+width: 390px;
+height: 564px;
+left: 460.98px;
+top: 2234.24px;
+
+}
+.icon[data-animation="bonus"] a::before{
+    width: 274px;
+    height: 74px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}    
+
+.icon:hover {filter: opacity(.2);}
+

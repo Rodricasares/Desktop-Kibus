@@ -1,0 +1,74 @@
+
+
+.alimentos{
+width: 1281px;
+height: 375px;
+left: 80px;
+top: 759px;
+
+background: #FFFFFF;
+box-shadow: 0px 14px 37px 19px rgba(126, 126, 126, 0.08);
+border-radius: 20px;
+}
+
+.pollo{
+
+width: 270px;
+height: 202.5px;
+left: -35px;
+top: -1px;
+
+}
+
+.card-title{
+margin: auto;
+width: 202px;
+height: 28px;
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height, or 127% */
+
+text-align: center;
+
+/* Text / Normal */
+
+color: #111111;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.card-text{
+    margin: auto;
+    width: 202px;
+    height: 53px;
+    font-family: 'Charlevoix Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+    text-align: center;
+    color: #767676;
+    flex: none;
+    order: 1;
+    
+}
+.btn, b{
+    position: absolute;
+    width: 130px;
+    height: 25px;
+    left: 70.5px;
+    top: 220px;
+    font-size: medium;
+    background: #D5DBE1;
+    border-radius: 22.5px;
+}
+.last{
+    margin-top: 28px;
+    margin-left: 20px;
+}

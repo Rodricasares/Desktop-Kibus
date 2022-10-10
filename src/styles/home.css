@@ -1,0 +1,152 @@
+
+    
+body{
+    display:block;
+margin-left: auto;
+margin-right: auto;
+    width: 1440px;
+    height: 3267px;
+ 
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+}    
+
+.logo{
+width: 120px;
+height: 54px;
+left: 80px;
+top: 68px;
+margin-bottom: 10px;
+}
+
+.home{
+height: 691.64px;
+}
+.point{    
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: calc(50% - 10px/2 - 3px);
+    top: 195px;
+    background: #EE7333;
+}
+
+.imgbox{
+width: 754.11px;
+height: 502.8px;
+left: 720.47px;
+top: 144.13px;
+}
+.kibus{
+    /*position: absolute;*/
+    width: 754.11px;
+    height: 502.8px;
+    left:957.47px;
+    top: 144.13px;
+}
+
+.text1{
+    position: absolute;
+    width: 710px;
+    height: 216px;
+    left: calc(50% - 710px/2 - 285px);
+    top: 223px;
+    
+    /* Kibus XXL Titulo */
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    /* or 100% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+.text2{
+    position: absolute;
+    width: 566px;
+    height: 84px;
+    left: calc(50% - 652px/2 - 326px);
+    top: 471px;
+    
+    /* Kibus L H2 Header */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    /* or 127% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.btnhome{
+    display: flex;
+    margin: 515px 11px 6px -189px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 21px;
+    /* position: absolute; */
+    width: 449px;
+    height: 50px;
+    left: 80px;
+    top: 602px;
+
+    
+    
+} 
+.boton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 16px;
+    
+    width: 184px;
+    height: 50px;
+    
+    /* Primary Color */
+    
+    background: #EE7333;
+    border-radius: 28px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+   
+}
+
+.botonDos{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 16px;
+    
+    width: 244px;
+    height: 50px;
+    color: rgba(238, 115, 51, 1)
+    ;
+    border: 1px solid #EE7333;
+    border-radius: 28px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

@@ -1,0 +1,195 @@
+.footer{
+/*position: absolute;*/
+width: 1440px;
+height: 320px;
+left: 295px;
+top: 2947px;
+background: #111111;
+}
+.logo1{
+
+width: 44px;
+height: 38px;
+left: 81px;
+top: 3005.69px;
+
+}
+.polit{
+
+    width: 180px;
+    height: 24px;
+    
+    /* Kibus S Body */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.politica{
+    margin-top:40px;
+    width: 180px;
+    height: 178px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.card-titulo{
+width: 145px;
+height: 28px;
+
+/* Kibus L H2 Header */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height, or 127% */
+
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.card-texto{
+    width: 380px;
+height: 120px;
+
+/* Kibus S Body */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+.card-titulo1{
+
+width: 98px;
+height: 28px;
+
+/* Kibus L H2 Header */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height, or 127% */
+
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.contacto{
+    height: 20px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.imgContacto{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+    
+    position: absolute;
+    width: 137px;
+    height: 20px;
+    left: -45px;
+    top: 60px;
+    
+}
+.pago{
+    margin: 40px;
+    width: 256px;
+    height: 76px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.card-titulo2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height, or 127% */
+
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.imgPago{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    
+    position: absolute;
+    width: 256px;
+    height: 40px;
+    left: 17px;
+    top: 60px;
+}
